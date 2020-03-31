@@ -7,17 +7,20 @@
 //
 
 import UIKit
+// Step 1: Import UIKit.
+import HASuperImages
 
 class ViewController: UIViewController {
 
+    // Step 2: Declare or connect UIImageView. Make sure to set width/height constraints to the same value.
+    @IBOutlet weak var testImageView: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        // Step 3: Call the roundViewWith method on your image view.
+        testImageView.roundViewWith(borderColor: .white, borderWidth: 5.0)
     }
 
 }
