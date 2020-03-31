@@ -1,0 +1,16 @@
+PODS:
+  - HASuperImages (0.1.0)
+
+DEPENDENCIES:
+  - HASuperImages (from `../`)
+
+EXTERNAL SOURCES:
+  HASuperImages:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HASuperImages: b95d447079800cce06650f3421ca30ddc899ca3c
+
+PODFILE CHECKSUM: 3b71ea509f05451b9b98f0e5015471b67758aef9
+
+COCOAPODS: 1.8.4
