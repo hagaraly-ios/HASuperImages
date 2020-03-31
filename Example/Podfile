@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HASuperImages_Example' do
+  pod 'HASuperImages', :path => '../'
+
+  target 'HASuperImages_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
